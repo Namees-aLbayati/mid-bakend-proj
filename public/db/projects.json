@@ -1,8 +1,10 @@
 [
-    {"name":"Event Planner","github":"https://github.com/Namees-aLbayati/Event_Planner_project2",
+    {"name":"Event Planner",
+    "github":"https://github.com/Namees-aLbayati/Event_Planner_project2",
     "image":"event.png",
     "description":"Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse what's happening in your local area."
-    ,"url":"https://obscure-chamber-98928.herokuapp.com/","tech":"JavaScript,CSS,HTML,Bootstrap,HandleBars.js,expressJS,Npm packages"}
+    ,"url":"https://obscure-chamber-98928.herokuapp.com/",
+    "tech":"JavaScript,CSS,HTML,Bootstrap,HandleBars.js,expressJS,Npm packages"}
    , {
         "name":"Weather dashboard",
         "github":"https://github.com/Namees-aLbayati/WeatherApp",

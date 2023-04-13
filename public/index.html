@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="HTML5 website template">
   <meta name="author" content="namees website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+  <script src="https://kit.fontawesome.com/b31fce75a2.js" crossorigin="anonymous"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
@@ -27,7 +30,7 @@
           <a class="header--logo" href="#0">
             <img src="./assets/img/namees-albayati-low-resolution-logo-white-on-black-background (1).png" style="width:190px ; height: 100px;">
           </a>
-          <button class="header--cta cta">Hire Us</button>
+          <button class="header--cta cta">Contact Me </button>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -57,82 +60,67 @@
           <li class="l-section section">
             <div class="work">
               <h2>Projects</h2>
-              <div class="work--lockup">
-                <ul class="slider">
 
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory
-</p>
-                      </p>
+
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner " id="container" style="        border: 3px solid #ccc;border-radius: 70px;  box-shadow: 0 0 50px #ccc;
+                ">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <a href="https://github.com/Namees-aLbayati/Event_Planner_project2">
+                    <img src="./projectsImage/event.png" class="d-block" style="width:100% ;height: 300px;" alt="...">
                     </a>
-                  </li>
+                    <div class=" text-center">
+                      <h7 >
+                        Event Planner 
+                      </h7>
+                    <p style="padding-top:6px ;">
+                      Event Planner was designed with the partier in mind, 
+                      the one who wants to find fine dinning or a friend to have a good time. 
+                      Event Planner is the easiest way for anyone to find an event to attend,
+                       create or host your own event or browse what's happening in your local area.
+                   <br>
+                   <br>
+                    Technologies:JavaScript,CSS,HTML,Bootstrap,HandleBars.js,expressJS,Npm packages.                  
+                  <a href="https://github.com/Namees-aLbayati/Event_Planner_project2">
+                    <i class="fa-solid fa-link fa-xl" ></i>                    </p>
+
+                  </a>
+                  
+                  </div>
+                  </div>
+                 
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              </div>
+
+            </li>
+
+              
 
 
-                  </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
+         
           <li class="l-section section">
             <div class="contact">
               <div class="contact--lockup">
                 <div class="modal">
                   <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
+                    <p>USA Austin Tx</p>
                     <a href="mailto:nameesmohammed12@gmail.com">nameesmohammed12@gmail.com</a>
                     <a href="tel:+17372887235">+1 7372887235</a>
                   </div>
                   <ul class="modal--options">
                  
-                    <li><a href="mailto:nameesmohammed12@gmail.com">Contact Us</a></li>
+                    <li><a href="mailto:nameesmohammed12@gmail.com">Lets Be In-touch</a></li>
                   </ul>
                 </div>
               </div>
@@ -149,7 +137,7 @@
                 </div>
                 <div class="form-floating">
                   <textarea class="form-control" placeholder="Leave a comment here" id="message"></textarea>
-                  <label for="message" class="text-dark">Comments</label>
+                  <label for="message" class="text-dark">Message</label>
                 </div>
               
                 <input type="submit" style="position: relative; top:100px;padding:15px;left:250px" id="button" value="Send Email" >
@@ -170,14 +158,15 @@
   <ul class="outer-nav">
     <li class="is-active">Home</li>
     <li>Works</li>
-    <li>About</li>
+    <li id="resume">About</li>
   </ul>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
 <script src="assets/js/sendemail.js"></script>
+<script src="assets/js/project.js"></script>
+
 
 
 </body>
