@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "livereload -v -w 1000 public & nodemon server.js",
-    "s":"nodemon server.js"
+    "start": "nodemon server.js",
+    "dev": "livereload -v -w 1000 public & nodemon server.js"
   },
   "author": "Namees mohammed",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "emailjs": "^4.0.1",
     "express": "^4.18.2",
     "path": "^0.12.7"

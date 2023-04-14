@@ -4,6 +4,8 @@ const path=require('path')
 const PORT=3000|process.env.PORT
 const publicDir=path.join(__dirname,'public')
 const fs=require('fs')
+const dotenv = require('dotenv');
+dotenv.config();
 
 const livereload=require('livereload');
 const server=livereload.createServer();
@@ -17,6 +19,9 @@ app.use(livereload2())
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static('public'))
+
+
+
 
 
 
