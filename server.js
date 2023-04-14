@@ -7,14 +7,13 @@ const fs=require('fs')
 const dotenv = require('dotenv');
 dotenv.config();
 
-const livereload=require('livereload');
-const server=livereload.createServer();
-server.watch(publicDir);
-const livereload2=require('connect-livereload');
-const { fstat } = require('fs');
+// const livereload=require('livereload');
+// const server=livereload.createServer();
+// server.watch(publicDir);
+// const livereload2=require('connect-livereload');
 
 
-app.use(livereload2())
+//app.use(livereload2())
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
