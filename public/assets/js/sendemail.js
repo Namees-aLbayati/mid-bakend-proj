@@ -14,6 +14,7 @@ document.getElementById('form')
         console.log(this)
       btn.value = 'Send Email';
       alert('Sent!');
+      window.location.assign('/')
 this.reset()
     }, (err) => {
       btn.value = 'Send Email';

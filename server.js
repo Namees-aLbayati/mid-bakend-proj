@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const path=require('path')
-const PORT=3000|process.env.PORT
+var port = process.env.PORT || 1337;
 const publicDir=path.join(__dirname,'public')
 const fs=require('fs')
 const dotenv = require('dotenv');
@@ -35,6 +35,6 @@ res.json(data)
 })
 
 
-app.listen(PORT,()=>{
+app.listen(port,()=>{
     console.log('LISTEN')
 })
