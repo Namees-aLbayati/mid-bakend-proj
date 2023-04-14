@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "dev": "livereload -v -w 1000 public & nodemon server.js"
   },
   "author": "Namees mohammed",
